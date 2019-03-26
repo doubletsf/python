@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".vscode"
+		},
+		{
+			"path": "Algorithm diagram"
+		},
+		{
+			"path": "practice"
+		},
+		{
+			"name": "python",
+			"path": "."
+		}
+	]
+}

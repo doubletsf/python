@@ -1,0 +1,24 @@
+'''
+    此程序为3.3的练习题:主要用来练习对列表的排序操作
+    1)
+                                        Author:Double
+                                        Date:2019/3/12
+'''
+attractions=['yun nan','nan jing','wu han','cheng du','hong kong']
+print(attractions)
+#sorted()对列表进行临时排序
+print(sorted(attractions))
+print(attractions)
+print(sorted(attractions,reverse=True))
+print(attractions)
+#reverse()反转列表顺序
+attractions.reverse()
+print(attractions)
+attractions.reverse()
+print(attractions)
+#sort()对列表进行排序
+attractions.sort()
+print(attractions)
+attractions.sort(reverse=True)
+print(attractions)
+#print(attractions[-1])
