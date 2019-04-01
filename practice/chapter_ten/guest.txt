@@ -1,0 +1,14 @@
+double
+XX
+xx
+double
+double
+q
+double
+double
+python -u "c:\Users\80919\python\practice\chapter_ten\guest.py"
+double
+s
+double
+double
+doube1
