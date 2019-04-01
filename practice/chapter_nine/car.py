@@ -2,7 +2,8 @@
     类与子类
 
 '''
-#父类
+# 父类
+
 
 class Car():
 
@@ -51,6 +52,10 @@ class Battery():
         message += " miles on a full charge."
         print(message)
 
+    def upgrade_battery(self):
+        if self.battery_size is not 85:
+            self.battery_size = 85
+
 
 class ElectricCar(Car):
     def __init__(self, make, model, year):
@@ -62,4 +67,6 @@ class ElectricCar(Car):
 my_tesla = ElectricCar('tesla', 'model s', 2016)
 print(my_tesla.get_descriptive_name())
 my_tesla.battery.describe_battery()
+my_tesla.battery.get_range()
+my_tesla.battery.upgrade_battery()
 my_tesla.battery.get_range()
