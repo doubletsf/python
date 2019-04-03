@@ -7,11 +7,12 @@ def count_words(filename):
         msg = "Sorry, the file " + filename + " does not exist."
         print(msg)
     else:
-        #计算文件大致包含多少个单词
+        # 计算文件大致包含多少个单词
         words = contents.split()
         num_words = len(words)
-        print("The file " + filename + " has about " + str(num_words) + 
-            " words.") 
+        print("The file " + filename + " has about " + str(num_words) +
+              " words.")
+
 
 filenames = ['guest.txt', 'double.txt', 'programming.txt']
 for filename in filenames:
