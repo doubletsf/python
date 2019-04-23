@@ -5,6 +5,6 @@ def city_country(city, country, population=''):
     '''
     if population:
         city_country = city + ', ' + country + ' - population ' + population 
-    else
+    else:
         city_country = city + ', ' + country
     return city_country.title()
