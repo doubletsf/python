@@ -4,7 +4,7 @@ def city_country(city, country, population=''):
      :type country: char
     '''
     if population:
-        city_country = city + ', ' + country + ' - population ' + population 
+        city_country = city + ', ' + country + ' ' + population 
     else:
         city_country = city + ', ' + country
     return city_country.title()
