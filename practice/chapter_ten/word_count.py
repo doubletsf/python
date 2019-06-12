@@ -15,7 +15,7 @@ def count_words(filename):
         print("Number of occurrences of XX: " +  str(contents.lower().count('xx')))
 
 
-filenames = ['guest.txt', 'double.txt', 'programming.txt']
+filenames = ['C:/Users/80919/python/practice/chapter_ten/guest.txt', 'C:/Users/80919/python/practice/chapter_ten/programming.txt']
 for filename in filenames:
     count_words(filename)
     

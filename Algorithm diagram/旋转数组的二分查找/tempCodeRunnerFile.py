@@ -1,0 +1,1 @@
+sys.path.insert(0, 'C:/Users/80919/python/Algorithm diagram')

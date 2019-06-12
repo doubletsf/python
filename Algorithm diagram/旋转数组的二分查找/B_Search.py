@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0, 'C:/Users/80919/python/Algorithm diagram')
 from rotate_Array import rotate
 '''
 调用rotate_Array.py文件中的rotate(nums, k)函数(用来旋转数组)
@@ -13,8 +15,7 @@ from rotate_Array import rotate
         Date:2019/3/18
 '''
 # 调用单个函数
-import sys
-sys.path.insert(0, 'C:/Users/80919/hello/Algorithm diagram')
+
 
 
 def B_Search(list, item):
